@@ -1825,10 +1825,8 @@ margin-top:-20px;
   
 }
 
-@media screen and (device-width:360px) and (orientation: portrait) {
-#logo .wsite-logo #wsite-title {
-font-size:30px;
-}
+@media (max-width:372px) {
+#logo .wsite-logo #wsite-title { font-size:30px;}
 }
 
 blockquote { margin: 10px 0; padding-left: 20px; border-left: 4px solid #ddd; font-style: italic; line-height: 170%; }
