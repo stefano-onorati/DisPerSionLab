@@ -1189,6 +1189,11 @@ visibility:hidden;
   }
 }
 
+/*for smaller screen sizes (in portrait) */
+@media (max-width:372px) {
+#navmobile { margin-top:86px;}
+}
+
 /* Tablet display */
 
 @media(max-width: 1090px) {
@@ -1823,10 +1828,6 @@ margin-top:-20px;
       max-height: 800px;
     }
   
-}
-
-@media (max-width:372px) {
-#logo .wsite-logo #wsite-title { font-size:30px;}
 }
 
 blockquote { margin: 10px 0; padding-left: 20px; border-left: 4px solid #ddd; font-style: italic; line-height: 170%; }
